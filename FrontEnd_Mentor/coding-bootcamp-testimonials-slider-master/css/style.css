@@ -1,0 +1,270 @@
+                        .carousel {
+                            position: relative;
+                            top: 14.2%;
+                            left: 51.0%;
+                            height: 540px;
+                            width: 540px;
+                        }
+                        
+                        .img__profil {
+                            width: 100%;
+                            height: 100%;
+                        }
+                        
+                        .container__major {
+                            position: relative;
+                            background-color: white;
+                            width: 1440px;
+                            height: 800px;
+                            margin: 0 auto;
+                        }
+                        
+                        .carousel__track {
+                            list-style: none;
+                            position: relative;
+                            padding: 0%;
+                            margin: 0%;
+                            transition: transform 200ms ease-in;
+                        }
+                        
+                        .carousel__slide {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            width: 100%;
+                        }
+                        
+                        .carousel__track-container {
+                            position: absolute;
+                            height: 100%;
+                            position: relative;
+                            overflow: hidden;
+                            box-shadow: 12px 14px 35px;
+                        }
+                        
+                        .pattern-bg {
+                            height: 82.8%;
+                            top: 6.0%;
+                            right: 5.0%;
+                        }
+                        
+                        .parttern-curve {
+                            bottom: 0;
+                            left: 0;
+                            height: 20%;
+                        }
+                        
+                        .pattern-quotes {
+                            left: 18.5%;
+                            top: 26%;
+                            height: 14.1;
+                        }
+                        
+                        .img__profil {
+                            right: 10%;
+                        }
+                        
+                        .carousel__button {
+                            border: 0;
+                            margin: 0%;
+                            height: 100%;
+                            width: 100%;
+                            outline: inherit;
+                            cursor: pointer;
+                        }
+                        
+                        .carousel__button--prev {
+                            padding: 10px 20px 10px 15px;
+                            border-radius: 50% 0 0 50%;
+                            background-color: hsla(0, 1%, 95%);
+                        }
+                        
+                        .carousel__button--next {
+                            padding: 10px 15px 10px 20px;
+                            border-radius: 0 50% 50% 0;
+                            background-color: hsla(0, 1%, 95%);
+                        }
+                        
+                        .button__container {
+                            display: flex;
+                            position: absolute;
+                            background-color: transparent;
+                            width: 115px;
+                            height: 60px;
+                            bottom: 0;
+                            transform: translateY(50%);
+                            left: 12.5%;
+                            filter: drop-shadow(2px 4px 10px);
+                        }
+                        
+                        strong {
+                            color: hsl(240, 38%, 20%);
+                            font-size: 1.3rem;
+                            font-weight: 700;
+                        }
+                        
+                        .job {
+                            color: hsl(240, 18%, 77%);
+                            font-size: 1.2rem;
+                            font-weight: 500;
+                        }
+                        
+                        .testimony {
+                            position: absolute;
+                            color: hsl(240, 38%, 20%);
+                            visibility: hidden;
+                        }
+                        
+                        .container__minor {
+                            position: relative;
+                            top: 14.5%;
+                            display: flex;
+                            justify-content: column;
+                        }
+                        
+                        .container__testimony {
+                            position: absolute;
+                        }
+                        
+                        .deco {
+                            position: absolute;
+                        }
+                        
+                        body {
+                            margin-top: 290px;
+                            background-color: black;
+                        }
+                        
+                        .carousel__button--prev:hover {
+                            background-color: hsla(247, 37%, 50%);
+                        }
+                        
+                        .carousel__button--next:hover {
+                            background-color: hsla(247, 37%, 50%);
+                        }
+                        
+                        .carousel__button--prev:active {
+                            background-color: hsla(247, 37%, 80%);
+                        }
+                        
+                        .carousel__button--next:active {
+                            background-color: hsla(247, 37%, 80%);
+                        }
+                        
+                        .testimony.current-slide {
+                            visibility: visible;
+                        }
+                        
+                        .testimony__container {
+                            position: absolute;
+                            background-color: transparent;
+                            width: 45%;
+                            height: 70%;
+                            font-size: 2rem;
+                            font-family: "inter";
+                            font-weight: 300;
+                            line-height: 2.6rem;
+                            left: 11.5%;
+                            top: 23.5%;
+                        }
+                        
+                        br {
+                            display: none;
+                        }
+                        
+                        @media (max-width: 700px) {
+                            .container__major {
+                                position: relative;
+                                background-color: white;
+                                width: 375px;
+                                height: 667px;
+                                margin: 0 auto;
+                            }
+                            .container__minor {
+                                position: relative;
+                                top: 8.5%;
+                                background-color: transparent;
+                            }
+                            .carousel {
+                                position: relative;
+                                bottom: 100000%;
+                                left: 16.5%;
+                                height: 250px;
+                                width: 250px;
+                                border-radius: 30px;
+                            }
+                            .button__container {
+                                display: flex;
+                                position: absolute;
+                                background-color: transparent;
+                                width: 40px;
+                                height: 35px;
+                                bottom: 0;
+                                transform: translateY(50%);
+                                left: 37%;
+                                border-radius: 30px;
+                            }
+                            .carousel__button--prev {
+                                padding: 10px 20px 10px 15px;
+                                border-radius: 50% 0 0 50%;
+                                background-color: hsla(0, 1%, 95%);
+                            }
+                            .carousel__button--next {
+                                padding: 10px 20px 10px 15px;
+                                border-radius: 0 50% 50% 0;
+                                background-color: hsla(0, 1%, 95%);
+                            }
+                            .img__button {
+                                height: 15px;
+                                width: 10px;
+                            }
+                            .testimony__container {
+                                position: absolute;
+                                background-color: transparent;
+                                width: 80%;
+                                height: 90%;
+                                font-size: 1.1rem;
+                                font-family: "inter";
+                                font-weight: 300;
+                                line-height: 1.5rem;
+                                left: 10%;
+                                top: 123.8%;
+                                text-align: center;
+                            }
+                            strong {
+                                color: hsl(240, 38%, 20%);
+                                font-size: 1rem;
+                                font-weight: 700;
+                            }
+                            .job {
+                                color: hsl(240, 18%, 77%);
+                                font-size: 0.9rem;
+                                font-weight: 500;
+                            }
+                            .pattern-bg {
+                                height: 45%;
+                                top: 4%;
+                                right: 7.0%;
+                            }
+                            .carousel__track-container {
+                                position: relative;
+                                background-color: transparent;
+                                padding: 0%;
+                                overflow: hidden;
+                                border-radius: 5px;
+                            }
+                            .parttern-curve {
+                                bottom: 0;
+                                left: 0;
+                                height: 10%;
+                            }
+                            .pattern-quotes {
+                                left: 50%;
+                                transform: translateX(-50%);
+                                top: 54%;
+                                height: 7.5%;
+                            }
+                            br {
+                                display: flex;
+                            }
+                        }

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container__major">
+
+        <img class="pattern-bg deco" src="images/pattern-bg.svg" alt="">
+        <img class="parttern-curve deco" src="images/pattern-curve.svg" alt="">
+        <img class="pattern-quotes deco" src="images/pattern-quotes.svg" alt="">
+
+
+        <div class="container__minor">
+
+
+            <div class="carousel">
+                <div class="carousel__track-container">
+                    <ul class="carousel__track">
+                        <li class="carousel__slide current-slide">
+                            <div class="carousel__template">
+                                <img class="img__profil" src="images/image-tanya.jpg" alt="">
+
+                            </div>
+                        </li>
+                        <li class="carousel__slide">
+                            <div class="carousel__template">
+                                <img class="img__profil" src="images/image-john.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="button__container">
+                    <button class="carousel__button carousel__button--prev">
+                        <img class="img__button" src="images/icon-prev.svg" alt="">
+                      </button>
+
+                    <button class="carousel__button carousel__button--next">
+                        <img class="img__button" src="images/icon-next.svg" alt="">
+                      </button>
+                </div>
+
+            </div>
+
+
+            <div class="testimony__container">
+                <div class="testimony testimony_tanya current-slide ">
+                    <p>“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”</p>
+
+                    <p class="sub__container"><strong>Tanya Sinclair</strong><br> <span class="job ">UX Engineer</span>
+                    </p>
+                </div>
+                <div class="testimony testimony_John ">
+                    <p>“ If you want to lay the best foundation possible I’d recommend taking this course. The depth the instructors go into is incredible. I now feel so confident about starting up as a professional developer. ”</p>
+
+                    <p class="sub__container"> <strong>John Tarkpor</strong> <br><span class="job ">Junior Front-end Developer</span> </p>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+    </div>
+
+
+
+
+    </div>
+
+    <script src="js/carousel.js"></script>
+</body>
+
+</html>
